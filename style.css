@@ -92,11 +92,11 @@ html , body {
 
 
 #overlay {
-    height: 40%;
+    height: 43%;
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-color: red;
+    /* background-color: red; */
     padding: 2.5vw;
     color: #fff;
 }
@@ -105,10 +105,40 @@ html , body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1.7vw;
+}
+
+#over1 h1 {
+    font-family: monument;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+#over1 h2 {
+    font-size: 1vw;
+    padding: 2;
+    /* background-color: blue; */
+    border-radius: 50%;
+    padding: 2vw 2.4vw;
+    border: 1px solid white;
 }
 
 #over2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 2px solid white;
+}
+
+#over2 {
+    font-size: 1.5vw;
+}
+#over2 h4 {
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+#over2 img {
+    height: 3vw;
+    margin-right: 0.5vw;
 }
