@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito';
+    font-family: 'Gilroy';
 }
 html , body {
     height: 100%;
@@ -55,8 +55,8 @@ html , body {
     align-items: center;
     justify-content: center;
     border-right: 2px solid black;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 19px;
 }
 
 #nav h2:nth-last-child(1) {
@@ -72,13 +72,43 @@ html , body {
 #center {
     height: 85%;
     width: 100%;
-    background-color: red;
-    padding: 5vw;
-
+    /* background-color: red; */
+    padding: 1.5vw 3vw;
+    position: relative;
 }
 
 #content {
     height: 100%;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#overlay {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    padding: 2.5vw;
+    color: #fff;
+}
+
+#over1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#over2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
