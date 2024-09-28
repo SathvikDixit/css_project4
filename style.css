@@ -66,3 +66,19 @@ html , body {
 #nav h2:nth-last-child(2) {
     width: 29%;
 }
+
+
+
+#center {
+    height: 85%;
+    width: 100%;
+    background-color: red;
+    padding: 5vw;
+
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
