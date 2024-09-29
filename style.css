@@ -147,7 +147,7 @@ html , body {
 
 
 #scroll {
-    height: 40vh;
+    height: 38vh;
     width: 100%;
     /* background-color: red; */
     white-space: nowrap;
@@ -159,7 +159,7 @@ html , body {
 #container {
     height: 100%;
     width: 115%;
-    border-color: blue;
+    /* border-color: blue; */
     display: inline-block;
     padding: 2vw;
     animation-name: anime;
