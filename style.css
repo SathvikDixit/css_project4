@@ -150,7 +150,7 @@ html , body {
     width: 100%;
     /* background-color: red; */
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
@@ -160,15 +160,30 @@ html , body {
     border-color: blue;
     display: inline-block;
     padding: 2vw;
+    animation-name: anime;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 #scroll img {
     /* display: none; */
     height: 100%;
     border-radius: 50%;
-    width: 13%;
+    width: 12.75%;
     object-fit: cover;
-    object-position: top;
+    object-position: 30% 30%;
     margin: 1vw;
 }
 
+
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
