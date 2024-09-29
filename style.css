@@ -143,3 +143,32 @@ html , body {
     height: 3vw;
     margin-right: 0.5vw;
 }
+
+
+#scroll {
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#container {
+    height: 100%;
+    width: 115%;
+    border-color: blue;
+    display: inline-block;
+    padding: 2vw;
+}
+
+#scroll img {
+    /* display: none; */
+    height: 100%;
+    border-radius: 50%;
+    width: 13%;
+    object-fit: cover;
+    object-position: top;
+    margin: 1vw;
+}
+
