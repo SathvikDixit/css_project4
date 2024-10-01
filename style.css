@@ -388,24 +388,39 @@ body {
     /* height: 20vh; */
     width: 100%;
     padding: 1vw;
-    background-color: red;
+    /* background-color: red; */
     white-space: nowrap;
     overflow-x: hidden;
     overflow-y: hidden;
-
-   
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 #marq h1 {
     display: inline-block;
-    font-size: 3vw;
+    font-size: 3.2vw;
     text-transform: uppercase;
     font-weight: 900;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0.1px black;
     color: transparent;
     font-family: monument;
+    letter-spacing: 2px;
+    /* background-color: blue; */
+    margin-right: 16px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
-
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
 
 
 
