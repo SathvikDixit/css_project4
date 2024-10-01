@@ -51,6 +51,14 @@ body {
     font-size: 40px;
 }
 
+#nav h1::after {
+    content: "©️";
+    font-size: 20px;
+    font-weight: 500;
+    font-family: gilroy;
+    
+}
+
 #nav h2 {
     /* background-color: rgb(255, 251, 0); */
     height: 100%;
@@ -227,7 +235,7 @@ body {
     letter-spacing: 4px;
     padding: 0.3vw 0.5vw;
     border-radius: 50%;
-    color: black;
+    color: #3C6C82;
     /* background-color: yellow; */
     border: 1px solid rgba(0, 0, 0, 0);
     margin-right: -1px;
@@ -239,10 +247,10 @@ body {
     border: 1px solid black;
 }
 #alphabet h6:nth-child(20) {
-    color: #3C6C82;
+    color: #000;
 }
 #alphabet h6:nth-child(2) {
-    color: #3C6C82;
+    color: #000;
 }
 
 
