@@ -9,6 +9,9 @@ html , body {
     height: 100%;
     width: 100%;
 }
+body {
+    background-color: #f8f8f8;
+}
 
 *::selection {
     background-color: rgb(169, 223, 246);
@@ -235,6 +238,12 @@ html , body {
 #alphabet h6:hover {
     border: 1px solid black;
 }
+#alphabet h6:nth-child(20) {
+    color: #3C6C82;
+}
+#alphabet h6:nth-child(2) {
+    color: #3C6C82;
+}
 
 
 
@@ -313,6 +322,7 @@ html , body {
     align-items: center;
     justify-content: space-between;
     padding: 0 2vw;
+    transition: all ease 0.7s;
     position: relative;
 }
 
@@ -356,10 +366,10 @@ html , body {
 }
 
 .elem:nth-last-child(1) img {
-    left: 40%;
+    left: 35%;
 }
 .elem:nth-last-child(3) img {
-    left: 40%;
+    left: 35%;
 }
 
 .elem:hover img {
@@ -367,3 +377,40 @@ html , body {
     left: 22%;
 }
 
+.elem:hover {
+    background-color: #e4e2e2;
+}
+
+
+
+
+#marq {
+    /* height: 20vh; */
+    width: 100%;
+    padding: 1vw;
+    background-color: red;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+   
+}
+#marq h1 {
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    font-family: monument;
+}
+
+
+
+
+
+
+#footer {
+    height: 100%;
+    width: 100%;
+}
