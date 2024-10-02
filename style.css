@@ -14,7 +14,7 @@ body {
 }
 
 *::selection {
-    background-color: rgb(169, 223, 246);
+    background-color: rgb(224, 169, 246);
 }
 
 #main {
@@ -59,6 +59,15 @@ body {
     font-family: gilroy;
     position: absolute;
     top: 15%;
+    right: 14%;
+}
+#nav h1::before {
+    content: "model management";
+    font-size: 9px;
+    font-weight: 500;
+    font-family: gilroy;
+    position: absolute;
+    bottom: 19%;
     right: 14%;
 }
 
