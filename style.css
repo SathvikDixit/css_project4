@@ -445,7 +445,36 @@ body {
 
 
 
-#footer {
-    height: 100%;
+#page4 {
     width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+}
+
+#blog {
+    width: 30%;
+    height: 100%;
+    padding: 3vw;
+}
+
+#blog h1 {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: monument;
+    margin-left: 20%;
+}
+
+#p4-content {
+    width: calc(100% - 30%);
+    height: 100%;
+    background-color: blue;
+    padding: 3vw;
+}
+#p4-con-left {
+    display: flex;
+}
+#p4-con-left h2 {
+    font-size: 18px;
+    margin-right: 10px;
 }
