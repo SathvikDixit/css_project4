@@ -474,7 +474,7 @@ body {
 #p4-con-left {
     display: flex;
 }
-#p4-con-left h2 {
+#p4-con-left h3 {
     font-size: 18px;
     margin-right: 10px;
 }
