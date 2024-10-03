@@ -404,6 +404,7 @@ body {
 
 
 
+
 #marq {
     /* height: 20vh; */
     width: 100%;
@@ -415,6 +416,7 @@ body {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+
 #marq h1 {
     display: inline-block;
     font-size: 3.2vw;
@@ -441,6 +443,7 @@ body {
         transform: translateX(calc(-100% - 20px));
     }
 }
+
 
 
 
