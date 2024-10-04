@@ -451,9 +451,11 @@ body {
 #page4 {
     width: 100%;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
+    margin-top: 2vh;
 }
+
 
 #blog {
     width: 30%;
@@ -466,20 +468,37 @@ body {
     font-weight: 900;
     font-family: monument;
     margin-left: 20%;
+    margin-top: 3.5vh;
 }
 
 #p4-content {
-    width: calc(100% - 30%);
+    width: 100%;
     height: 100%;
-    background-color: blue;
-    padding: 3vw;
-}
-#p4-con-left {
+    /* background-color: blue; */
+    padding: 4vw;
     display: flex;
+    justify-content: space-between;
 }
+
 #p4-con-left h3 {
-    font-size: 18px;
-    margin-right: 10px;
+    font-size: 20px;
 }
 
+#p4-con-left img {
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
+    margin-top: 5%;
+}
 
+#p4-con-right h3 {
+    font-size: 20px;
+}
+
+#p4-con-right img {
+    width: 100%;
+    height: 89%;
+    object-fit: cover;
+    object-position: right;
+    margin-top: 5%;
+}
