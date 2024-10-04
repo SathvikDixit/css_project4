@@ -585,6 +585,7 @@ body {
     justify-content: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    padding: 3vw;
 }
 
 #last h1 {
@@ -596,7 +597,7 @@ body {
     font-family: monument;
     font-size: 40px;
     position: relative;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 
@@ -609,9 +610,10 @@ body {
     align-items: top;
     justify-content: center;
     border-right: 2px solid black;
-    margin-top: 52px;
+    /* margin-top: 52px; */
 }
 
 #last h2:nth-last-child(1) {
     width: 70%;
+    border-right: none;
 }
