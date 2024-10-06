@@ -362,7 +362,7 @@ body {
 
 .elem .elem-part2 {
     width: 50%;
-    border-right-color: red;
+    /* background-color: red; */
 }
 
 .elem-part2 h1 {
